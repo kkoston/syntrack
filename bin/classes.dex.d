@@ -1,0 +1,27 @@
+/Users/chris/NetBeansProjects/Syntrack/bin/classes.dex : \
+/Users/chris/NetBeansProjects/Syntrack/bin/classes/us/koston/Syntrack/AndroidAudioDevice.class \
+/Users/chris/NetBeansProjects/Syntrack/bin/classes/us/koston/Syntrack/Keyboard$1.class \
+/Users/chris/NetBeansProjects/Syntrack/bin/classes/us/koston/Syntrack/Keyboard$2.class \
+/Users/chris/NetBeansProjects/Syntrack/bin/classes/us/koston/Syntrack/Keyboard$3.class \
+/Users/chris/NetBeansProjects/Syntrack/bin/classes/us/koston/Syntrack/Keyboard$4.class \
+/Users/chris/NetBeansProjects/Syntrack/bin/classes/us/koston/Syntrack/Keyboard.class \
+/Users/chris/NetBeansProjects/Syntrack/bin/classes/us/koston/Syntrack/Note.class \
+/Users/chris/NetBeansProjects/Syntrack/bin/classes/us/koston/Syntrack/Pitch$1.class \
+/Users/chris/NetBeansProjects/Syntrack/bin/classes/us/koston/Syntrack/Pitch.class \
+/Users/chris/NetBeansProjects/Syntrack/bin/classes/us/koston/Syntrack/R$attr.class \
+/Users/chris/NetBeansProjects/Syntrack/bin/classes/us/koston/Syntrack/R$drawable.class \
+/Users/chris/NetBeansProjects/Syntrack/bin/classes/us/koston/Syntrack/R$id.class \
+/Users/chris/NetBeansProjects/Syntrack/bin/classes/us/koston/Syntrack/R$layout.class \
+/Users/chris/NetBeansProjects/Syntrack/bin/classes/us/koston/Syntrack/R$string.class \
+/Users/chris/NetBeansProjects/Syntrack/bin/classes/us/koston/Syntrack/R.class \
+/Users/chris/NetBeansProjects/Syntrack/bin/classes/us/koston/Syntrack/Sequence.class \
+/Users/chris/NetBeansProjects/Syntrack/bin/classes/us/koston/Syntrack/Sequencer$1.class \
+/Users/chris/NetBeansProjects/Syntrack/bin/classes/us/koston/Syntrack/Sequencer.class \
+/Users/chris/NetBeansProjects/Syntrack/bin/classes/us/koston/Syntrack/Synthesizer.class \
+/Users/chris/NetBeansProjects/Syntrack/bin/classes/us/koston/Syntrack/SynthesizerActivity$AmpChangeListener.class \
+/Users/chris/NetBeansProjects/Syntrack/bin/classes/us/koston/Syntrack/SynthesizerActivity.class \
+/Users/chris/NetBeansProjects/Syntrack/bin/classes/us/koston/Syntrack/Syntrack$1.class \
+/Users/chris/NetBeansProjects/Syntrack/bin/classes/us/koston/Syntrack/Syntrack.class \
+/Users/chris/NetBeansProjects/Syntrack/bin/classes/us/koston/Syntrack/VCO.class \
+/Users/chris/NetBeansProjects/Syntrack/bin/classes/us/koston/Syntrack/Wave.class \
+/Users/chris/NetBeansProjects/Syntrack/bin/classes/us/koston/Syntrack/Workstation.class \

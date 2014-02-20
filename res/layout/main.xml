@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="0dp"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    >
+    
+
+    <ImageView
+        android:id="@+id/im_1"
+        android:background="#FFFFFF"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        />
+    
+    <ScrollView
+            android:id="@+id/sc_track1"
+            android:layout_width="80dp"
+            android:layout_height="160dp">
+        <TextView
+            android:text=""
+            android:id="@+id/tv_score"
+            android:typeface="monospace"
+            android:textSize="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#115511"
+        />       
+    </ScrollView>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="left"
+    android:orientation="horizontal"
+    android:padding="0dp"
+    >
+        <ToggleButton
+            android:id="@+id/bt_play"
+            android:text="-"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        />
+        
+        <Button
+            android:id="@+id/bt_edit_synth"
+            android:text="SYNTH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        />
+        
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="horizontal"
+        android:padding="0dp"
+        >
+        
+        <!-- OCTAVE SELECTOR -->
+        <Button
+            android:id="@+id/bt_octdown"
+            android:text="-"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        />
+        
+        <TextView
+            android:id="@+id/tv_oct"
+            android:text="4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        />
+        
+        <Button
+            android:id="@+id/bt_octup"
+            android:text="+"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+        />
+        
+        
+        <!-- NOTE LENGT BUTTONS -->
+        <RadioGroup
+          android:id="@+id/rg_nl"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+          <RadioButton
+              android:id="@+id/rb_nl_1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+          />
+          <RadioButton
+              android:id="@+id/rb_nl_2"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+          />
+          <RadioButton
+              android:id="@+id/rb_nl_4"
+              android:checked="true"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+          />
+          <RadioButton 
+              android:id="@+id/rb_nl_8"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+          />
+          <RadioButton
+              android:id="@+id/rb_nl_16"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+          />
+        </RadioGroup>
+
+           
+            
+    </LinearLayout>
+
+    
+    <ImageView
+        android:id="@+id/im_keyboard"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/keyboard"
+        android:padding="0dp"
+    />
+
+
+    
+
+</LinearLayout>
+

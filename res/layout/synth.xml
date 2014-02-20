@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="0dp"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    >
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Synthesizer editor"
+    />
+
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:stretchColumns="1">
+
+    <!-- SINUS -->
+    <TableRow>    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sin"
+        />
+
+        <SeekBar
+            android:id="@+id/sb_osc1_sin_amp"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:max="100"
+        />
+    </TableRow>
+
+    <!-- SQUARE -->
+    <TableRow>    
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sqr"
+        />
+
+        <SeekBar
+            android:id="@+id/sb_osc1_sqr_amp"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:max="100"
+        />
+    </TableRow> 
+
+    
+    <!-- TRIANGLE -->    
+    <TableRow>    
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tri"
+        />
+
+        <SeekBar
+            android:id="@+id/sb_osc1_tri_amp"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:max="100"
+        />
+    </TableRow> 
+
+    
+    <!-- SAWTOOTH -->    
+    <TableRow>    
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Saw"
+        />
+
+        <SeekBar
+            android:id="@+id/sb_osc1_saw_amp"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:max="100"
+        />
+    </TableRow>
+    
+    </TableLayout>
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="left"
+    android:orientation="horizontal"
+    android:padding="0dp"
+    >
+        <ToggleButton
+            android:id="@+id/bt_play"
+            android:text="-"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        />
+        
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="horizontal"
+        android:padding="0dp"
+        >
+        
+        <!-- OCTAVE SELECTOR -->
+        <Button
+            android:id="@+id/bt_octdown"
+            android:text="-"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        />
+        
+        <TextView
+            android:id="@+id/tv_oct"
+            android:text="4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        />
+        
+        <Button
+            android:id="@+id/bt_octup"
+            android:text="+"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+        />
+        
+        
+        <!-- NOTE LENGT BUTTONS -->
+        <RadioGroup
+          android:id="@+id/rg_nl"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+          <RadioButton
+              android:id="@+id/rb_nl_1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+          />
+          <RadioButton
+              android:id="@+id/rb_nl_2"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+          />
+          <RadioButton
+              android:id="@+id/rb_nl_4"
+              android:checked="true"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+          />
+          <RadioButton 
+              android:id="@+id/rb_nl_8"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+          />
+          <RadioButton
+              android:id="@+id/rb_nl_16"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+          />
+        </RadioGroup>
+
+           
+            
+    </LinearLayout>
+
+    
+    <ImageView
+        android:id="@+id/im_keyboard"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/keyboard"
+        android:padding="0dp"
+    />
+</LinearLayout>
+
